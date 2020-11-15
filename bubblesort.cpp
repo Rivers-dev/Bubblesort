@@ -50,5 +50,6 @@ int main()
 	printArr(test1, n);
 	cout << "Test array 2: \n";
 	printArr(test2, o);
+	return 0;
 }
 
