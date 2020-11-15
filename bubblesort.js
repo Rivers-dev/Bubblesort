@@ -1,6 +1,6 @@
 function swap(arr, x, y) //Takes the target array and the indexes of the desired numbers to swap
 {
-    var tmp, first = x, second = y, xVal = arr[x], yVal = arr[y];
+    let tmp, first = x, second = y, xVal = arr[x], yVal = arr[y];
     tmp = second;
     second = first;
     first = tmp;
